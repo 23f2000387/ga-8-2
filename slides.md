@@ -49,7 +49,7 @@ This documentation demonstrates:
 <!-- _backgroundImage: url('images/bg1.jpg') -->
 <!-- _backgroundSize: cover -->
 
-# Background Image Slide
+# Background Image Slides
 
 This slide uses a **full background image** using Marp directives.
 
