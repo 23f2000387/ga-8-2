@@ -8,22 +8,24 @@ paginate: true
 
 <!-- _class: lead -->
 
-# Product Technical Documentation
-### Using Marp
+# Product Technical Documentation  
+### Using Marp  
 **Email:** 23f2000387@ds.study.iitm.ac.in
 
 ---
 
-<!-- Custom Theme -->
+<!-- Custom Theme (CSS override) -->
 <style>
 section {
   background: #f7f9fc;
   color: #222;
   font-family: "Segoe UI", sans-serif;
 }
+
 h1, h2 {
   color: #005bbb;
 }
+
 blockquote {
   border-left: 4px solid #005bbb;
   padding-left: 10px;
@@ -31,41 +33,47 @@ blockquote {
 }
 </style>
 
-# Introduction
-This documentation demonstrates:
-- Custom themes
-- Background images
-- Code blocks
-- Math equations
-- Directives
-- Page numbering
-- Maintainable structure
+# Introduction  
+This documentation demonstrates:  
+- Custom themes  
+- Background images  
+- Code blocks  
+- Math equations  
+- Directives  
+- Page numbering  
+- Maintainability for version control  
 
 ---
 
-<!-- Background image slide -->
+<!-- Background Image Slide -->
 <!-- _backgroundImage: url('images/bg1.jpg') -->
 <!-- _backgroundSize: cover -->
+<!-- _backgroundPosition: center -->
 
 # Background Image Slide
-This slide uses a **full background image** using Marp directives.
-Make sure the image exists at: `images/bg1.jpg`
+
+This slide uses a **full background image**.
+
+Make sure the image exists at:  
+`images/bg1.jpg`
+
+**Email:** 23f2000387@ds.study.iitm.ac.in
 
 ---
 
-# Algorithmic Complexity
+# Algorithmic Complexity (Math Support)
 
-Marp supports **KaTeX** for math:
+Marp supports **KaTeX** for rendering math:
 
-### Inline Math
-$O(n \log n)$
+### Time Complexity  
+Inline: $O(n \log n)$  
 
-### Block Equation
+### Full Equation  
 $$
 T(n) = 2T\left(\frac{n}{2}\right) + n
 $$
 
-Master theorem gives:
+Using the Master theorem:  
 $$
 T(n) = O(n \log n)
 $$
@@ -78,5 +86,3 @@ $$
 def compute():
     for i in range(1000):
         print(i)
-
-compute()
