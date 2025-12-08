@@ -55,7 +55,7 @@ This documentation demonstrates:
 This slide uses a **full background image**.
 
 Make sure the image exists at:  
-`images/bg1.jpg`
+`bg1.jpg`
 
 **Email:** 23f2000387@ds.study.iitm.ac.in
 
