@@ -46,7 +46,7 @@ This documentation demonstrates:
 ---
 
 <!-- Background Image Slide -->
-<!-- _backgroundImage: url('images/bg1.jpg') -->
+<!-- _backgroundImage: url('bg1.jpg') -->
 <!-- _backgroundSize: cover -->
 <!-- _backgroundPosition: center -->
 
