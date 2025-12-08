@@ -4,29 +4,26 @@ title: Product Technical Documentation
 author: Kalppana S
 theme: default
 paginate: true
-_paginate: true
 ---
 
 <!-- _class: lead -->
 
-# Product Technical Documentation  
-### Using Marp  
+# Product Technical Documentation
+### Using Marp
 **Email:** 23f2000387@ds.study.iitm.ac.in
 
 ---
 
-<!-- Custom Theme (CSS override) -->
+<!-- Custom Theme -->
 <style>
 section {
   background: #f7f9fc;
   color: #222;
   font-family: "Segoe UI", sans-serif;
 }
-
 h1, h2 {
   color: #005bbb;
 }
-
 blockquote {
   border-left: 4px solid #005bbb;
   padding-left: 10px;
@@ -34,43 +31,41 @@ blockquote {
 }
 </style>
 
-# Introduction  
-This documentation demonstrates:  
-- Custom themes  
-- Background images  
-- Code blocks  
-- Math equations  
-- Directives  
-- Page numbering  
-- Maintainability for version control  
+# Introduction
+This documentation demonstrates:
+- Custom themes
+- Background images
+- Code blocks
+- Math equations
+- Directives
+- Page numbering
+- Maintainable structure
 
 ---
 
+<!-- Background image slide -->
 <!-- _backgroundImage: url('images/bg1.jpg') -->
 <!-- _backgroundSize: cover -->
 
-# Background Image Slides
-
+# Background Image Slide
 This slide uses a **full background image** using Marp directives.
-
-Make sure the image exists at:  
-`images/bg1.jpg`
+Make sure the image exists at: `images/bg1.jpg`
 
 ---
 
-# Algorithmic Complexity (Math Support)
+# Algorithmic Complexity
 
-Marp supports **KaTeX** for rendering math:
+Marp supports **KaTeX** for math:
 
-### Time Complexity  
-Inline: $O(n \log n)$  
+### Inline Math
+$O(n \log n)$
 
-### Full Equation  
+### Block Equation
 $$
 T(n) = 2T\left(\frac{n}{2}\right) + n
 $$
 
-Using the Master theorem:  
+Master theorem gives:
 $$
 T(n) = O(n \log n)
 $$
@@ -83,3 +78,5 @@ $$
 def compute():
     for i in range(1000):
         print(i)
+
+compute()
